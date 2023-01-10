@@ -29,7 +29,7 @@ async def nami(call:CallbackQuery):
     d1 = y1 // 60
     e1 = y1 % 60
     txt = "❗️❕❗️Quyidagilar namoz kirish vaqtlari hisoblanadi❕❗️❕\n" 
-    txt+= f"📍Viloyat : {data}\n"
+    txt+= f"📍Viloyat : {datas['city']}\n"
     txt+= "\n⁑Bugungilik Namoz vaqtlari :\n"
     txt+= f"\n📅Kun : {x.day}.{x.month}.{x.year}\n"
     txt+= f"\n🌄Quyosh chiqishi : {datas['today']['Sunrise']}\n"
